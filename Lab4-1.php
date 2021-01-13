@@ -11,10 +11,10 @@ $mul= $z * $y;
 $div=$mul/$z;
 $message = "Hello World";
 
-echo $add; echo "<br />";
-echo $sub; echo "<br />";
-echo $mul; echo "<br />";
-echo $div; echo "<br />";
+echo "ผลบวก ",$x, " + ",$y," = ",$add; echo "<br />";
+echo "ผลลบ ",$z, " - ",$x," = ",$sub; echo "<br />";
+echo "ผลคูณ ",$y, " * ",$z," = ",$mul; echo "<br />";
+echo "ผลหาร ",$div, " / ",$z," = ",$div; echo "<br />";
 
 ?>
 </body>
