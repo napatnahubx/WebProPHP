@@ -8,6 +8,7 @@
 $name = "สมชาย";
 $age = 30;
 $country = "ประเทศไทย";
+echo '<b>Single Quote:</b> My name is' .$name.''.$age.'years old from'.$country.';
 echo "<b>Double Quote:</b> My name is $name, $age years old from$country";
 ?>
 </font>
